@@ -56,77 +56,77 @@ A comparison of leading hosted cloud shells, remote terminals, and terminal-as-a
 
 ## 💻 Open-Source Shell Projects
 
-Every major open-source shell repository listed below is actively maintained, feature-tested, and ordered in **descending order of GitHub star count**. Each badge directly links to that project's live stargazers page.
+Every major open-source shell repository listed below is actively maintained, feature-tested, and ordered in **descending order of GitHub Stars_Count**. Each badge directly links to that project's live stargazers page.
 
-- **[PowerShell](https://github.com/PowerShell/PowerShell)** [![GitHub stars](https://img.shields.io/github/stars/PowerShell/PowerShell?style=social&color=white)](https://github.com/PowerShell/PowerShell/stargazers) ⚡  
+- **[PowerShell](https://github.com/PowerShell/PowerShell)** [![GitHub_Stars](https://img.shields.io/github/stars/PowerShell/PowerShell?style=social&color=white)](https://github.com/PowerShell/PowerShell/stargazers) ⚡  
   *Cross-platform automation and configuration framework* (MIT License)  
   Processes structured data objects rather than raw text. Provides deep metadata inspection, automatic argument completion, and uniform cmdlet structures across Linux, macOS, and Windows.
 
-- **[NuShell](https://github.com/nushell/nushell)** [![GitHub stars](https://img.shields.io/github/stars/nushell/nushell?style=social&color=white)](https://github.com/nushell/nushell/stargazers) 🦀  
+- **[NuShell](https://github.com/nushell/nushell)** [![GitHub_Stars](https://img.shields.io/github/stars/nushell/nushell?style=social&color=white)](https://github.com/nushell/nushell/stargazers) 🦀  
   *A modern, data-first shell written in Rust* (MIT License)  
   Treats all CLI input and output as structured data tables rather than raw text streams. Includes native filtering (`where`), column selection (`get`), and built-in serialization for JSON, YAML, SQLite, CSV, and TOML.
 
-- **[Fish](https://github.com/fish-shell/fish-shell)** [![GitHub stars](https://img.shields.io/github/stars/fish-shell/fish-shell?style=social&color=white)](https://github.com/fish-shell/fish-shell/stargazers) 🐟  
+- **[Fish](https://github.com/fish-shell/fish-shell)** [![GitHub_Stars](https://img.shields.io/github/stars/fish-shell/fish-shell?style=social&color=white)](https://github.com/fish-shell/fish-shell/stargazers) 🐟  
   *The friendly interactive command-line shell* (GPL-2.0 License)  
   Best out-of-the-box user experience requiring zero initial configuration. Delivers real-time autosuggestions, rich tab completion with searchable menus, and 24-bit RGB syntax highlighting.
 
-- **[Xonsh](https://github.com/xonsh/xonsh)** [![GitHub stars](https://img.shields.io/github/stars/xonsh/xonsh?style=social&color=white)](https://github.com/xonsh/xonsh/stargazers) 🐍  
+- **[Xonsh](https://github.com/xonsh/xonsh)** [![GitHub_Stars](https://img.shields.io/github/stars/xonsh/xonsh?style=social&color=white)](https://github.com/xonsh/xonsh/stargazers) 🐍  
   *Python-powered, cross-platform shell language and command prompt* (BSD-2-Clause License)  
   A superset of Python 3 with native Unix shell primitives. Allows developers to seamlessly mix Python expressions, packages, and system commands within a single namespace.
 
-- **[sh (mvdan/sh)](https://github.com/mvdan/sh)** [![GitHub stars](https://img.shields.io/github/stars/mvdan/sh?style=social&color=white)](https://github.com/mvdan/sh/stargazers) 🐹  
+- **[sh (mvdan/sh)](https://github.com/mvdan/sh)** [![GitHub_Stars](https://img.shields.io/github/stars/mvdan/sh?style=social&color=white)](https://github.com/mvdan/sh/stargazers) 🐹  
   *A shell parser, formatter, and POSIX interpreter in Go* (BSD-3-Clause License)  
   Includes `shfmt` for standard shell formatting, static analysis, and programmatic parsing with POSIX, Bash, and mksh support.
 
-- **[Elvish](https://github.com/elves/elvish)** [![GitHub stars](https://img.shields.io/github/stars/elves/elvish?style=social&color=white)](https://github.com/elves/elvish/stargazers) 🧝  
+- **[Elvish](https://github.com/elves/elvish)** [![GitHub_Stars](https://img.shields.io/github/stars/elves/elvish?style=social&color=white)](https://github.com/elves/elvish/stargazers) 🧝  
   *Expressive programming language and versatile interactive shell* (BSD-2-Clause License)  
   Passes typed data structures (lists, maps, closures) through pipelines without string serialization. Features built-in file and directory navigators and strict compile-time error checks.
 
-- **[Zsh](https://github.com/zsh-users/zsh)** [![GitHub stars](https://img.shields.io/github/stars/zsh-users/zsh?style=social&color=white)](https://github.com/zsh-users/zsh/stargazers) 🐚  
+- **[Zsh](https://github.com/zsh-users/zsh)** [![GitHub_Stars](https://img.shields.io/github/stars/zsh-users/zsh?style=social&color=white)](https://github.com/zsh-users/zsh/stargazers) 🐚  
   *Advanced interactive UNIX command interpreter* (MIT-like License)  
   Default shell on macOS. Provides programmable command completions, spelling correction, themeable prompts, shared session history, and compatibility with Bourne shell syntax.
 
-- **[Oils (Oil Shell)](https://github.com/oils-for-unix/oils)** [![GitHub stars](https://img.shields.io/github/stars/oils-for-unix/oils?style=social&color=white)](https://github.com/oils-for-unix/oils/stargazers) 🛢️  
+- **[Oils (Oil Shell)](https://github.com/oils-for-unix/oils)** [![GitHub_Stars](https://img.shields.io/github/stars/oils-for-unix/oils?style=social&color=white)](https://github.com/oils-for-unix/oils/stargazers) 🛢️  
   *Upgrade path from Bash to a clean, reliable language and runtime* (Apache-2.0 License)  
   Combines `OSH` (POSIX/Bash compatibility) with `YSH` (modern expression syntax, structured data, and deterministic error handling).
 
-- **[Brush](https://github.com/reubeno/brush)** [![GitHub stars](https://img.shields.io/github/stars/reubeno/brush?style=social&color=white)](https://github.com/reubeno/brush/stargazers) 🖌️  
+- **[Brush](https://github.com/reubeno/brush)** [![GitHub_Stars](https://img.shields.io/github/stars/reubeno/brush?style=social&color=white)](https://github.com/reubeno/brush/stargazers) 🖌️  
   *POSIX- and Bash-compatible shell implemented in Rust* (MIT License)  
   Features syntax highlighting, history-based suggestions, fast startup times, and memory safety without sacrificing standard Bash script compatibility.
 
-- **[Murex](https://github.com/lmorg/murex)** [![GitHub stars](https://img.shields.io/github/stars/lmorg/murex?style=social&color=white)](https://github.com/lmorg/murex/stargazers) 🐚  
+- **[Murex](https://github.com/lmorg/murex)** [![GitHub_Stars](https://img.shields.io/github/stars/lmorg/murex?style=social&color=white)](https://github.com/lmorg/murex/stargazers) 🐚  
   *DevOps-focused shell designed for safety and productivity* (GPL-3.0 License)  
   Treats data pipelines as typed payloads (JSON, CSV, YAML), preventing pipeline failures, silent command errors, and parameter injection issues.
 
-- **[Lsh](https://github.com/brenns10/lsh)** [![GitHub stars](https://img.shields.io/github/stars/brenns10/lsh?style=social&color=white)](https://github.com/brenns10/lsh/stargazers) 💡  
+- **[Lsh](https://github.com/brenns10/lsh)** [![GitHub_Stars](https://img.shields.io/github/stars/brenns10/lsh?style=social&color=white)](https://github.com/brenns10/lsh/stargazers) 💡  
   *Minimalist shell implementation in C* (MIT License)  
   Lightweight Unix command interpreter focused on clean POSIX process handling, fork/exec pipelines, and educational shell mechanics.
 
-- **[Ion](https://github.com/redox-os/ion)** [![GitHub stars](https://img.shields.io/github/stars/redox-os/ion?style=social&color=white)](https://github.com/redox-os/ion/stargazers) ⚛️  
+- **[Ion](https://github.com/redox-os/ion)** [![GitHub_Stars](https://img.shields.io/github/stars/redox-os/ion?style=social&color=white)](https://github.com/redox-os/ion/stargazers) ⚛️  
   *Modern system shell designed for the Redox OS microkernel* (MIT License)  
   Fast execution speed, simple syntax, and native POSIX-like execution written completely in safe Rust.
 
-- **[NGS (Next Generation Shell)](https://github.com/ngs-lang/ngs)** [![GitHub stars](https://img.shields.io/github/stars/ngs-lang/ngs?style=social&color=white)](https://github.com/ngs-lang/ngs/stargazers) 🚀  
+- **[NGS (Next Generation Shell)](https://github.com/ngs-lang/ngs)** [![GitHub_Stars](https://img.shields.io/github/stars/ngs-lang/ngs?style=social&color=white)](https://github.com/ngs-lang/ngs/stargazers) 🚀  
   *Domain-specific programming language engineered specifically for system administration* (GPL-3.0 License)  
   Features built-in primitives for cloud operations, web requests, JSON parsing, and declarative error tolerance.
 
-- **[Rash](https://github.com/willghatch/racket-rash)** [![GitHub stars](https://img.shields.io/github/stars/willghatch/racket-rash?style=social&color=white)](https://github.com/willghatch/racket-rash/stargazers) 🌀  
+- **[Rash](https://github.com/willghatch/racket-rash)** [![GitHub_Stars](https://img.shields.io/github/stars/willghatch/racket-rash?style=social&color=white)](https://github.com/willghatch/racket-rash/stargazers) 🌀  
   *The Reckless Racket Shell* (Apache-2.0 License)  
   Blends the full linguistic power of Racket and Lisp with interactive Unix shell pipeline ergonomics.
 
-- **[Hilbish](https://github.com/sammy-ette/Hilbish)** [![GitHub stars](https://img.shields.io/github/stars/sammy-ette/Hilbish?style=social&color=white)](https://github.com/sammy-ette/Hilbish/stargazers) 🌺  
+- **[Hilbish](https://github.com/sammy-ette/Hilbish)** [![GitHub_Stars](https://img.shields.io/github/stars/sammy-ette/Hilbish?style=social&color=white)](https://github.com/sammy-ette/Hilbish/stargazers) 🌺  
   *Extensible Unix/Windows shell configured in Lua* (MIT License)  
   Combines a friendly interactive command line with the scripting speed and configuration ergonomics of Lua.
 
-- **[rc](https://github.com/rakitzis/rc)** [![GitHub stars](https://img.shields.io/github/stars/rakitzis/rc?style=social&color=white)](https://github.com/rakitzis/rc/stargazers) 📜  
+- **[rc](https://github.com/rakitzis/rc)** [![GitHub_Stars](https://img.shields.io/github/stars/rakitzis/rc?style=social&color=white)](https://github.com/rakitzis/rc/stargazers) 📜  
   *Unix reimplementation of the Plan 9 shell* (Zlib License)  
   Clean, minimalist C-like syntax originally designed by Tom Duff for the Plan 9 operating system.
 
-- **[Tcsh](https://github.com/tcsh-org/tcsh)** [![GitHub stars](https://img.shields.io/github/stars/tcsh-org/tcsh?style=social&color=white)](https://github.com/tcsh-org/tcsh/stargazers) 🧭  
+- **[Tcsh](https://github.com/tcsh-org/tcsh)** [![GitHub_Stars](https://img.shields.io/github/stars/tcsh-org/tcsh?style=social&color=white)](https://github.com/tcsh-org/tcsh/stargazers) 🧭  
   *C shell with programmable completion and line editing* (BSD-2-Clause License)  
   Historical C-syntax command interpreter featuring directory stack switching and C-style expressions.
 
-- **[Mksh](https://github.com/mirabilos/mksh-cvs2git)** [![GitHub stars](https://img.shields.io/github/stars/mirabilos/mksh-cvs2git?style=social&color=white)](https://github.com/mirabilos/mksh-cvs2git/stargazers) 📦  
+- **[Mksh](https://github.com/mirabilos/mksh-cvs2git)** [![GitHub_Stars](https://img.shields.io/github/stars/mirabilos/mksh-cvs2git?style=social&color=white)](https://github.com/mirabilos/mksh-cvs2git/stargazers) 📦  
   *MirBSD Korn Shell* (MirOS License)  
   Compact, fast, and highly portable POSIX/ksh implementation optimized for resource-constrained systems, embedded environments, and rescue media.
 
@@ -172,7 +172,7 @@ Contributions are warmly welcome! 🙌
 1. 🍴 Fork this repository.
 2. 🌿 Create a new feature branch (`git checkout -b feature/awesome-shell`).
 3. ✍️ Add or update entries in `README.md` maintaining accurate data, pricing models, and ranked order.
-4. 🔍 Verify that URLs, pricing details, and star counts are correct and properly cited.
+4. 🔍 Verify that URLs, pricing details, and Stars_Counts are correct and properly cited.
 5. 🚀 Submit a pull request with a concise description of your additions.
 
 🌟 Star this repository if you find it helpful for your terminal workflow!
