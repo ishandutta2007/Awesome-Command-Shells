@@ -1,189 +1,171 @@
-# Awesome-Command-Shells
+# Awesome Command Shells: Top Shells & Terminal Ecosystem
 
-## Top Command Shells Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Tracked Topics](https://img.shields.io/badge/topics-shell%20%7C%20command--line%20%7C%20bash%20%7C%20zsh-blue.svg)](https://github.com/ishandutta2007/Awesome-Command-Shells)
+[![Maintenance](https://img.shields.io/badge/maintained-2026-green.svg)](https://github.com/ishandutta2007/Awesome-Command-Shells)
 
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Interactive Usability, Structured Data Pipelines & Cross-Platform Scripting*  
+> A curated list of exceptional command shells, modern CLI interpreters, cloud shell environments, and terminal developer platforms. Focused on interactive usability, structured data pipelines, object manipulation, and cross-platform scripting.
 
 **Last updated: October 2026**
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Command Shells**. These tools enable developers and system administrators to interact with their operating system—from POSIX-compliant scripts that run everywhere to modern shells that treat data as structured objects and provide intelligent autosuggestions as you type.
-
-
-
-**Examples** include Bash, Zsh, Fish, NuShell, PowerShell, Ksh, Tcsh, Dash, Elvish, and Xonsh (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for interactive shells, structured data processing, and cross-platform scripting—ideal for developers, sysadmins, and anyone who lives in the terminal.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **Terminal Emulators with Built-in Shell Features** (Warp, iTerm2, Windows Terminal)  
-
-  Some terminal emulators now ship with shell-like features including AI command suggestions, directory bookmarks, and integrated autocompletion—reducing the need for shell-level customization.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Bash](https://www.gnu.org/software/bash/)**  
-
-  **The GNU Bourne Again SHell** (GPL-3.0)  . **The most widely deployed shell in the world**—default on virtually every Linux distribution and macOS (pre-Catalina) . **sh-compatible** with useful features from Korn shell (ksh) and C shell (csh)  . **POSIX-compliant** and universally documented . **The reference implementation for scripting**—every Unix system can run a Bash script .
-
-
-
-- **[Zsh](https://www.zsh.org/)**  
-
-  **A UNIX command interpreter (shell) which of the standard shells most resembles the Korn shell** (MIT) . **The most feature-rich traditional shell**—**advanced command-line editing**, **programmable completion**, **spelling correction**, **shared history**, **theming and prompt customization**  . **Default on macOS Catalina and later** . **The pragmatic choice for developers who want Bash compatibility plus modern interactive features** .
-
-
-
-- **[Fish](https://github.com/fish-shell/fish-shell)**  
-
-  **The friendly interactive shell** (GPL-2.0)  . **The most user-friendly shell out of the box**—**syntax highlighting**, **autosuggestions**, **tab completion and selection lists that can be navigated and filtered**, and **no configuration needed**  . **Predictive suggestion engine** offers command completions and history-based hints as you type  . **Does autocorrection upon completion and autosuggestion**—not in the way when typing the whole command  . **Unlike other shells, fish stores exit status in `$status` instead of `$?`** and arguments are passed in a single list `$argv` rather than numbered variables  . **The reference implementation for interactive usability** .
-
-
-
-- **[NuShell](https://github.com/nushell/nushell)**  
-
-  **A new type of shell** (MIT)  . **The most innovative shell architecture**—**treats all input and output as structured data rather than raw text streams**  . **Nu pipelines use structured data** so you can safely select, filter, and sort the same way every time—**stop parsing strings and start solving problems**  . **`ls` outputs an array of structured objects** with attributes like name, size, type, and modified date  . **`where` filters arrays**, `get` accesses attributes, `math sum` calculates totals  . **Native support for JSON, YAML, SQLite, Excel, and more**  . **Operates on typed data** so it catches bugs other shells don't  . **The reference implementation for data-first shell architecture** .
-
-
-
-- **[PowerShell](https://github.com/PowerShell/PowerShell)**  
-
-  **Cross-platform automation and configuration framework** (MIT)  . **The object-oriented shell**—**processes structured data objects rather than raw text**  . **51,958+ GitHub stars**  . **Cross-platform**—runs on Linux, macOS, and Windows  . **All types of commands inherently expose metadata** about argument names, types, and valid value ranges—**PowerShell automatically supports argument name and value completion** for built-in, user-defined, and script file commands  . **The reference implementation for object-oriented shell pipelines** .
-
-
-
-- **[Xonsh](https://github.com/xonsh/xonsh)**  
-
-  **Python-powered, cross-platform shell language and command prompt** (BSD-2-Clause)  . **The Python-native shell**—**a superset of Python 3** with additional shell primitives from Bash and IPython  . **Supports all normal Python constructs**—import modules, use third-party libraries, and mix Python code with shell commands in a single namespace  . **Python objects represent environment variables and paths**—enabling programmatic manipulation  . **Extensible via xontribs**—community-driven plugins for frameworks, AI assistants, and system features  . **The reference implementation for Python-integrated shell scripting** .
-
-
-
-- **[Elvish](https://github.com/elves/elvish)**  
-
-  **Expressive programming language and a versatile interactive shell** (BSD-2-Clause)  . **The value-oriented shell**—**passes structured data like lists, maps, and closures between commands, preserving types without serialization**  . **Parses, compiles, and executes code in three phases**—catches syntax and variable errors before any code runs . **Aborts execution on command failure by default** to prevent silent errors  . **Directory history** with Ctrl-L to list visited directories  . **Navigation mode** with Ctrl-N for filesystem browsing  . **The reference implementation for value-oriented shell pipelines** .
-
-
-
-- **[Dash](http://gondor.apana.org.au/~herbert/dash/)**  
-
-  **POSIX-compliant implementation of sh that aims to be as small as possible** (BSD-2-Clause)  . **The fastest shell for script execution**—**used as `/bin/sh` on Debian and Ubuntu** for system scripts . **Minimal feature set**—no interactive conveniences, no command history, no autocompletion . **The reference implementation for POSIX portability** .
-
-
-
-- **[Ksh](http://www.kornshell.com/)**  
-
-  **The KornShell** (Eclipse Public License)  . **The original advanced shell**—developed by David Korn at Bell Labs  . **Introduced features later adopted by Bash and Zsh**—command history, aliases, functions, and arithmetic . **The foundation for POSIX shell standardization** .
-
-
-
-- **[Tcsh](https://www.tcsh.org/)**  
-
-  **C shell with file name completion and command line editing** (BSD-2-Clause)  . **The C-like syntax shell**—**uses C-style expression syntax** for conditionals and loops . **Introduced the directory stack** for fast switching between directories  . **The historical alternative to Bourne shell syntax** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Oils](https://github.com/oilshell/oil)** — Upgrade path from bash to a better language and runtime (Apache-2.0)  . **The bash-compatible shell with modern Unix features**—designed for Python and JavaScript users who avoid shell .
-
-- **[Murex](https://github.com/lmorg/murex)** — Smarter shell and scripting environment for usability, safety, and productivity (GPL-3.0)  . **Bash-like shell focused on DevOps tooling** .
-
-- **[Ion](https://github.com/redox-os/ion)** — Modern system shell with simple, yet powerful, syntax (MIT)  . **The Redox OS shell**—modern syntax with job control .
-
-- **[Mksh](https://github.com/MirBSD/mksh)** — MirBSD Korn shell (MirOS License)  . **The pragmatic ksh implementation**—small, fast, and portable .
-
-- **[Hilbish](https://github.com/Rosettea/Hilbish)** — Highly extensible command environment configured with Lua (MIT)  . **The Lua-configured shell** for users who want full customization .
-
-- **[Brush](https://github.com/reubeno/brush)** — POSIX- and bash-compatible shell implemented in Rust (MIT)  . **The Rust-based bash alternative** with real-time syntax highlighting and history-based auto-suggestions .
-
-- **[Rash](https://github.com/willghatch/racket-rash)** — Language, library, and shell REPL for Racket (Apache-2.0)  .
-
-- Community **n8n** workflows for shell script automation and dotfiles synchronization.
-
-
-
-**Frameworks for building custom systems**: Combine **Fish** or **Zsh** for interactive usability with **NuShell** for structured data pipelines, **Bash** for POSIX portability, **PowerShell** for cross-platform object pipelines, and **Xonsh** for Python-native scripting—creating a comprehensive shell environment .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Command shells handling system access must follow security best practices, especially when configuring environment variables and PATH.
-
-- **Open-source shells are mature and production-ready.** Bash is universally deployed . Fish provides the most user-friendly interactive experience out of the box . NuShell treats data as structured objects rather than text streams . **These are genuine alternatives to each other** .
-
-- **Bash vs. Zsh vs. Fish: the choice depends on your priority.** Bash for **maximum portability and POSIX compliance**—every system can run it . Zsh for **Bash compatibility plus modern interactive features**—programmable completion, spelling correction, theming . Fish for **the best out-of-the-box experience**—syntax highlighting, autosuggestions, and no configuration needed  . **The pragmatic answer is often Bash for scripts, Fish or Zsh for interactive use** .
-
-- **NuShell and Elvish represent a fundamental shift.** Traditional shells treat everything as text—you parse output with `awk`, `sed`, and `grep`. NuShell and Elvish **treat data as structured objects**, preserving types through pipelines  . **This eliminates an entire class of parsing bugs** .
-
-- **PowerShell is the most metadata-rich shell.** All commands inherently expose argument names, types, and valid value ranges—**PowerShell automatically supports argument name and value completion** for built-in, user-defined, and script file commands  . **This is unmatched by any other shell** .
-
-- **Xonsh is the Python-native option.** A superset of Python 3 with shell primitives—**import modules, use third-party libraries, and mix Python code with shell commands**  . **The best choice for data scientists and Python developers** who want shell functionality without leaving Python .
-
-- Self-hosted open-source solutions require proper shell configuration and dotfiles management. **Shells are deeply personal**—invest time in your setup and it pays dividends every day.
-
-
+Command shells enable developers, DevOps engineers, and system administrators to control operating systems, orchestrate cloud infrastructure, and automate workflows. Whether you need standard POSIX-compliant scripting environments, modern shells that treat CLI pipelines as structured typed data, or AI-integrated cloud terminals, this list covers the top hosted SaaS platforms and active open-source GitHub projects.
 
 ---
 
+## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Cloud Shell Platforms](#saas--hosted-cloud-shell-platforms)
+- [Open-Source Shell Projects](#open-source-shell-projects)
+- [Feature Comparison Matrix](#feature-comparison-matrix)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
 
-**Made for developers, system administrators, and anyone who lives in the terminal.**  
+---
 
-Let's make Command Shells more open, data-driven, and intelligent.
+## Sector Overview & Market Dynamics
+
+The global software development tools and cloud developer environment (CDE) market is estimated at **$6.4B to $9.0B**, growing at a CAGR of ~14–16% toward **$25B+ by 2030**, embedded within the multi-trillion dollar cloud and DevOps infrastructure industry. The sector displays **moderate fragmentation at the local developer terminal/shell layer** (where open-source projects like Bash, Zsh, Fish, and NuShell maintain entrenched user loyalty) alongside **concentrated hyperscaler dynamics in hosted cloud shells and remote workspaces** (dominated by Microsoft Azure, AWS, and Google Cloud, with emergent AI-agent terminal platforms capturing rapid enterprise monetization).
+
+---
+
+## SaaS & Hosted Cloud Shell Platforms
+
+A comparison of leading hosted cloud shells, remote terminals, and terminal-as-a-service platforms. The table is sorted in descending order of company size (valuation / market capitalization / revenue scale).
+
+| Product | Description | Starting Tier Price | Free Tier Limits | Company Size / Valuation |
+|:---|:---|:---|:---|:---|
+| **[Microsoft Azure Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell/)** | Browser-based, authenticated shell for Azure resource management with Bash & PowerShell | **$0.021/month** (Pay-as-you-go storage for home directory; Cloud Shell compute runtime is $0.00) | Free compute runtime with 20-min inactivity timeout; requires Azure Storage account (~$0.02/GB/month for 5 GB persistent image) | **~$3.1 Trillion** (Market Cap, Microsoft) |
+| **[AWS CloudShell](https://aws.amazon.com/cloudshell/)** | Browser-based, pre-authenticated Linux shell environment with AWS CLI & developer utilities | **$0.00/month** (Included at no additional charge with AWS account; standard AWS compute resource pricing applies if provisioning outside instances) | Free persistent storage up to 1 GB per AWS region; 20-min idle timeout, max 12-hour session duration | **~$2.0 Trillion** (Market Cap, Amazon) |
+| **[Google Cloud Shell](https://cloud.google.com/shell)** | Online Debian-based management environment with built-in code editor, Cloud SDK & persistent storage | **$0.00/month** (Free with active Google Cloud Platform account; Cloud Workstations available from ~$0.05/core-hour for dedicated compute) | 5 GB persistent `$HOME` directory storage; 50 hours per week usage quota limit with 20-min idle timeout | **~$2.0 Trillion** (Market Cap, Alphabet / Google) |
+| **[GitHub Codespaces](https://github.com/features/codespaces)** | Cloud-hosted development container environment with complete Linux terminal, shell selection, and VS Code | **$0.18/hour** (Billed for compute: $0.18/hr for 2-core / 4 GB RAM machine + $0.07/GB-month persistent storage) | 120 core-hours per month (60 hours on 2-core instance) and 15 GB storage per month free for all personal GitHub accounts | **~$35+ Billion** (Estimated unit valuation; GitHub ARR exceeds $2.0B within Microsoft) |
+| **[Gitpod](https://www.gitpod.io/)** | Automated, ephemeral cloud development environments and remote workspaces with configurable shell runtimes | **$9.00/user/month** (Pay-as-you-go Starter/Pro tier with compute credits) | 50 hours per month free workspace usage with standard compute (4 vCPU / 8 GB RAM) and 3 active workspaces | **~$200 Million** (Series A/B venture valuation; ~$6M–$8M ARR) |
+| **[Warp](https://www.warp.dev/)** | AI-native terminal emulator and collaborative command platform with integrated AI agents and Warp Drive | **$18.00/month** (Build plan billed annually at $18/mo, or $20/mo billed monthly; includes $20/mo AI agent usage) | Free forever for individuals: unlimited terminal access, Warp Agent CLI access, BYOK (Bring Your Own Keys) AI inference, up to 3 Warp Drive objects | **~$294 Million** (Post-money valuation via Series B led by Sequoia Capital) |
+
+---
+
+## Open-Source Shell Projects
+
+Every major open-source shell repository listed below is actively maintained, feature-tested, and ordered in **descending order of GitHub star count**. Each badge directly links to that project's live stargazers page.
+
+- **[PowerShell](https://github.com/PowerShell/PowerShell)** [![GitHub stars](https://img.shields.io/github/stars/PowerShell/PowerShell?style=social&color=white)](https://github.com/PowerShell/PowerShell/stargazers)  
+  *Cross-platform automation and configuration framework* (MIT License)  
+  Processes structured data objects rather than raw text. Provides deep metadata inspection, automatic argument completion, and uniform cmdlet structures across Linux, macOS, and Windows.
+
+- **[NuShell](https://github.com/nushell/nushell)** [![GitHub stars](https://img.shields.io/github/stars/nushell/nushell?style=social&color=white)](https://github.com/nushell/nushell/stargazers)  
+  *A modern, data-first shell written in Rust* (MIT License)  
+  Treats all CLI input and output as structured data tables rather than raw text streams. Includes native filtering (`where`), column selection (`get`), and built-in serialization for JSON, YAML, SQLite, CSV, and TOML.
+
+- **[Fish](https://github.com/fish-shell/fish-shell)** [![GitHub stars](https://img.shields.io/github/stars/fish-shell/fish-shell?style=social&color=white)](https://github.com/fish-shell/fish-shell/stargazers)  
+  *The friendly interactive command-line shell* (GPL-2.0 License)  
+  Best out-of-the-box user experience requiring zero initial configuration. Delivers real-time autosuggestions, rich tab completion with searchable menus, and 24-bit RGB syntax highlighting.
+
+- **[Xonsh](https://github.com/xonsh/xonsh)** [![GitHub stars](https://img.shields.io/github/stars/xonsh/xonsh?style=social&color=white)](https://github.com/xonsh/xonsh/stargazers)  
+  *Python-powered, cross-platform shell language and command prompt* (BSD-2-Clause License)  
+  A superset of Python 3 with native Unix shell primitives. Allows developers to seamlessly mix Python expressions, packages, and system commands within a single namespace.
+
+- **[sh (mvdan/sh)](https://github.com/mvdan/sh)** [![GitHub stars](https://img.shields.io/github/stars/mvdan/sh?style=social&color=white)](https://github.com/mvdan/sh/stargazers)  
+  *A shell parser, formatter, and POSIX interpreter in Go* (BSD-3-Clause License)  
+  Includes `shfmt` for standard shell formatting, static analysis, and programmatic parsing with POSIX, Bash, and mksh support.
+
+- **[Elvish](https://github.com/elves/elvish)** [![GitHub stars](https://img.shields.io/github/stars/elves/elvish?style=social&color=white)](https://github.com/elves/elvish/stargazers)  
+  *Expressive programming language and versatile interactive shell* (BSD-2-Clause License)  
+  Passes typed data structures (lists, maps, closures) through pipelines without string serialization. Features built-in file and directory navigators and strict compile-time error checks.
+
+- **[Zsh](https://github.com/zsh-users/zsh)** [![GitHub stars](https://img.shields.io/github/stars/zsh-users/zsh?style=social&color=white)](https://github.com/zsh-users/zsh/stargazers)  
+  *Advanced interactive UNIX command interpreter* (MIT-like License)  
+  Default shell on macOS. Provides programmable command completions, spelling correction, themeable prompts, shared session history, and compatibility with Bourne shell syntax.
+
+- **[Oils (Oil Shell)](https://github.com/oils-for-unix/oils)** [![GitHub stars](https://img.shields.io/github/stars/oils-for-unix/oils?style=social&color=white)](https://github.com/oils-for-unix/oils/stargazers)  
+  *Upgrade path from Bash to a clean, reliable language and runtime* (Apache-2.0 License)  
+  Combines `OSH` (POSIX/Bash compatibility) with `YSH` (modern expression syntax, structured data, and deterministic error handling).
+
+- **[Brush](https://github.com/reubeno/brush)** [![GitHub stars](https://img.shields.io/github/stars/reubeno/brush?style=social&color=white)](https://github.com/reubeno/brush/stargazers)  
+  *POSIX- and Bash-compatible shell implemented in Rust* (MIT License)  
+  Features syntax highlighting, history-based suggestions, fast startup times, and memory safety without sacrificing standard Bash script compatibility.
+
+- **[Murex](https://github.com/lmorg/murex)** [![GitHub stars](https://img.shields.io/github/stars/lmorg/murex?style=social&color=white)](https://github.com/lmorg/murex/stargazers)  
+  *DevOps-focused shell designed for safety and productivity* (GPL-3.0 License)  
+  Treats data pipelines as typed payloads (JSON, CSV, YAML), preventing pipeline failures, silent command errors, and parameter injection issues.
+
+- **[Lsh](https://github.com/brenns10/lsh)** [![GitHub stars](https://img.shields.io/github/stars/brenns10/lsh?style=social&color=white)](https://github.com/brenns10/lsh/stargazers)  
+  *Minimalist shell implementation in C* (MIT License)  
+  Lightweight Unix command interpreter focused on clean POSIX process handling, fork/exec pipelines, and educational shell mechanics.
+
+- **[Ion](https://github.com/redox-os/ion)** [![GitHub stars](https://img.shields.io/github/stars/redox-os/ion?style=social&color=white)](https://github.com/redox-os/ion/stargazers)  
+  *Modern system shell designed for the Redox OS microkernel* (MIT License)  
+  Fast execution speed, simple syntax, and native POSIX-like execution written completely in safe Rust.
+
+- **[NGS (Next Generation Shell)](https://github.com/ngs-lang/ngs)** [![GitHub stars](https://img.shields.io/github/stars/ngs-lang/ngs?style=social&color=white)](https://github.com/ngs-lang/ngs/stargazers)  
+  *Domain-specific programming language engineered specifically for system administration* (GPL-3.0 License)  
+  Features built-in primitives for cloud operations, web requests, JSON parsing, and declarative error tolerance.
+
+- **[Rash](https://github.com/willghatch/racket-rash)** [![GitHub stars](https://img.shields.io/github/stars/willghatch/racket-rash?style=social&color=white)](https://github.com/willghatch/racket-rash/stargazers)  
+  *The Reckless Racket Shell* (Apache-2.0 License)  
+  Blends the full linguistic power of Racket and Lisp with interactive Unix shell pipeline ergonomics.
+
+- **[Hilbish](https://github.com/sammy-ette/Hilbish)** [![GitHub stars](https://img.shields.io/github/stars/sammy-ette/Hilbish?style=social&color=white)](https://github.com/sammy-ette/Hilbish/stargazers)  
+  *Extensible Unix/Windows shell configured in Lua* (MIT License)  
+  Combines a friendly interactive command line with the scripting speed and configuration ergonomics of Lua.
+
+- **[rc](https://github.com/rakitzis/rc)** [![GitHub stars](https://img.shields.io/github/stars/rakitzis/rc?style=social&color=white)](https://github.com/rakitzis/rc/stargazers)  
+  *Unix reimplementation of the Plan 9 shell* (Zlib License)  
+  Clean, minimalist C-like syntax originally designed by Tom Duff for the Plan 9 operating system.
+
+- **[Tcsh](https://github.com/tcsh-org/tcsh)** [![GitHub stars](https://img.shields.io/github/stars/tcsh-org/tcsh?style=social&color=white)](https://github.com/tcsh-org/tcsh/stargazers)  
+  *C shell with programmable completion and line editing* (BSD-2-Clause License)  
+  Historical C-syntax command interpreter featuring directory stack switching and C-style expressions.
+
+- **[Mksh](https://github.com/mirabilos/mksh-cvs2git)** [![GitHub stars](https://img.shields.io/github/stars/mirabilos/mksh-cvs2git?style=social&color=white)](https://github.com/mirabilos/mksh-cvs2git/stargazers)  
+  *MirBSD Korn Shell* (MirOS License)  
+  Compact, fast, and highly portable POSIX/ksh implementation optimized for resource-constrained systems, embedded environments, and rescue media.
+
+- **[Bash](https://www.gnu.org/software/bash/)**  
+  *The GNU Bourne Again Shell* (GPL-3.0 License)  
+  The universal default scripting shell across Linux distributions and legacy Unix systems. Full POSIX compliance, universally documented, and the standard benchmark for shell scripting portability.
+
+- **[Dash](http://gondor.apana.org.au/~herbert/dash/)**  
+  *Debian Almquist Shell* (BSD-3-Clause License)  
+  Ultra-fast, minimal POSIX-compliant `/bin/sh` implementation optimized for maximum script execution speed and minimal memory footprint on Debian and Ubuntu.
+
+- **[Ksh (KornShell 93u+)](http://www.kornshell.com/)**  
+  *The original KornShell* (Eclipse Public License)  
+  Pioneered interactive features such as command history, associative arrays, arithmetic evaluation, and the foundation of the POSIX standard.
+
+---
+
+## Feature Comparison Matrix
+
+| Shell / Tool | Primary Language | Pipeline Model | Cross-Platform | Default OS Deployment | Best For |
+|:---|:---|:---|:---|:---|:---|
+| **Bash** | C | Raw Byte / Text Stream | Linux, macOS, Windows (WSL) | Standard Linux distros | Universal automation scripts & CI/CD portability |
+| **Zsh** | C | Raw Byte / Text Stream | Linux, macOS, BSD, Windows | macOS (default since Catalina) | Daily interactive development & rich theming |
+| **Fish** | Rust / C++ | Raw Byte / Text Stream | Linux, macOS, BSD, Windows | Optional user package | Out-of-the-box interactive usability & autocomplete |
+| **NuShell** | Rust | Structured Typed Tables | Linux, macOS, Windows | Cross-platform standalone | Modern data processing, JSON/YAML inspection & safety |
+| **PowerShell** | C# (.NET) | Object-Oriented (.NET) | Windows, Linux, macOS | Windows (Built-in) | Enterprise system administration & object pipelines |
+| **Xonsh** | Python | Python Objects / Text | Linux, macOS, Windows | Python package (`pip`) | Data science, Python scripting & DevOps automation |
+| **Elvish** | Go | First-Class Value Streams | Linux, macOS, BSD, Windows | Standalone binary | Type-safe shell scripting with built-in file navigation |
+| **Oils** | C++ / Python | Text + Structured JSON | Linux, macOS | Source / Binaries | Smooth upgrade path from legacy Bash to modern syntax |
+
+---
+
+## How to Contribute
+
+1. Fork this repository.
+2. Add or update entries in `README.md` maintaining accurate data, pricing models, and alphabetical/ranked order.
+3. Verify that URLs, pricing details, and star counts are correct and properly cited.
+4. Submit a pull request with a clear description of the modifications.
+
+Star this repository if you find it helpful for your terminal workflow!
+
+---
+
+## Disclaimer
+
+- This is a community-curated, independent index and is not affiliated with or endorsed by any company or project listed.
+- Command shells require system-level execution privileges. Always inspect third-party scripts, environment variables, and dotfiles configurations before executing them on production machines.
+- Prices, quotas, and star metrics are current as of October 2026 and are subject to change by their respective vendors or maintainers.
+
+---
+
+**Crafted with care for developers, system administrators, DevOps engineers, and terminal power users.**
